@@ -1,1 +1,6 @@
-alert("it's alive!!")
+import Card from './card'
+
+
+const app = document.querySelector('#app');
+
+app.appendChild(Card);
