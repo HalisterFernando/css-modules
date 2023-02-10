@@ -17,6 +17,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|jpg|gif)$/i,      
+        type: 'asset/resource'
+      },
+      {
         test: /\.m?js$/,
         exclude: /node_modules/,
         use: {
