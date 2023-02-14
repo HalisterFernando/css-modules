@@ -1,12 +1,13 @@
 import h from 'hyperscript';
 import helpers from 'hyperscript-helpers';
-import { card1, card2 } from './styles/card.css';
+import { card, cardBody, cardImage } from './styles/card-carousel.css';
 import CatImg from './assets/cat.jpg';
 
 const {div, a, img} = helpers(h);
 
-const cat = img({src: CatImg})
+const cat = img({src: CatImg, className: cardImage})
+const body = div({className: cardBody})
 
-const card = div({className: card2}, cat);
+const cardContainer = div({className: card}, cat);
 
-export default card
+export default cardContainer

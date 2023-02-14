@@ -1,0 +1,27 @@
+/* LOCAL */
+.card {
+    width: 320px;
+    background: white;
+    border-radius: 16px;
+    display: flex;
+    box-shadow: 2px 4px 8px rgba(0,0,0, .10);
+    margin: 50px auto;
+   
+}
+
+.cardBody {
+    width: 100%;
+    padding: 8px 16px 16px 16px;
+}
+
+.cardImage {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px 16px 0 0;
+}
+
+
+/* GLOBAL */
+/* COMPOSE */
