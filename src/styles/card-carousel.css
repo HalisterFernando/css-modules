@@ -4,14 +4,21 @@
     background: white;
     border-radius: 16px;
     display: flex;
+    flex-direction: column;
     box-shadow: 2px 4px 8px rgba(0,0,0, .10);
     margin: 50px auto;
    
 }
 
-.cardBody {
+.cardContent {
     width: 100%;
     padding: 8px 16px 16px 16px;
+}
+
+.cardContent h3 {
+    font-family: 'sans-serif';
+    font-weight: 800;
+    font-size: 14px;
 }
 
 .cardImage {
@@ -22,6 +29,38 @@
     border-radius: 16px 16px 0 0;
 }
 
+.cardAvatar {
+    width: 32px;
+    height: 32px;
+    display: block;
+    border-radius: 50%;
+} 
+
+.cardActions {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+
+} 
+
+.cardActions img {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+
+
+.cardText {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.cardText p {
+    font-family: 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+}
 
 /* GLOBAL */
 /* COMPOSE */
