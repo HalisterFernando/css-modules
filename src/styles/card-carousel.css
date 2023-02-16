@@ -13,12 +13,30 @@
 .cardContent {
     width: 100%;
     padding: 8px 16px 16px 16px;
+    box-sizing: border-box;
 }
 
 .cardContent h3 {
-    font-family: 'sans-serif';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-size: 14px;
+}
+.cardHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardUser {
+    width: calc(100% - 128px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.cardUser img {
+    margin-right: 8px;
 }
 
 .cardImage {
@@ -47,6 +65,8 @@
     width: 32px;
     height: 32px;
     display: block;
+    box-sizing: border-box;
+    padding: 6px
 }
 
 
@@ -57,7 +77,7 @@
 }
 
 .cardText p {
-    font-family: 'sans-serif';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
