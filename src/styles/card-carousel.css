@@ -1,14 +1,4 @@
 /* LOCAL */
-.card {
-    width: 320px;
-    background: white;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 2px 4px 8px rgba(0,0,0, .10);
-    margin: 50px auto;
-   
-}
 
 .cardContent {
     width: 100%;
