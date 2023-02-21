@@ -6,6 +6,7 @@ import Avatar from './assets/avatar.png';
 import Like from './assets/heart.png';
 import Comment from './assets/chat.png';
 import Share from './assets/share.png';
+import global from './styles/card-global.css';
 
 const {div, a, img, h3, p} = helpers(h);
 
@@ -26,6 +27,6 @@ const textContainer = div({classname: carousel.cardText}, text);
 
 const content = div({className: carousel.cardContent}, [contentHeader, textContainer]);
 
-const cardContainer = div({className: carousel.card}, [photo, content]);
+const cardContainer = div({className: 'card'}, [photo, content]);
 
 export default cardContainer

@@ -1,4 +1,8 @@
-.card {
+
+/* GLOBAL */
+
+
+:global(.card){
     width: 320px;
     background: white;
     border-radius: 16px;
@@ -6,7 +10,12 @@
     flex-direction: column;
     box-shadow: 2px 4px 8px rgba(0,0,0, .10);
     margin: 50px auto;
-   
+}
+
+
+.cardText {
+    width: 100%;
+    margin-top: 8px;
 }
 
 .cardText p {
