@@ -1,6 +1,8 @@
-import Card from './card'
+import CardCarousel from './CardCarousel';
+import CardVideo from './CardVideo'
 
 
 const app = document.querySelector('#app');
 
-app.appendChild(Card);
+app.appendChild(CardCarousel);
+app.appendChild(CardVideo);
