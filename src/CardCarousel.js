@@ -8,10 +8,14 @@ import Like from './assets/heart.png';
 import Comment from './assets/chat.png';
 import Share from './assets/share.png';
 import global from './styles/card-global.css';
+import Squares from './assets/squares.png';
 
 const {div, a, img, h3, p} = helpers(h);
 
 const photo = img({src: CatImg, className: common.cardImage});
+const icon = img({src: Squares})
+const iconContainer = div({className: carousel.cardIcon}, icon);
+const photoContainer = div ({className: common.photoContainer}, [photo, iconContainer])
 const avatar = img({src: Avatar, className: common.cardAvatar});
 const name = h3('Isabela.Souza');
 const user = div({className: common.cardUser}, [avatar, name])
@@ -28,6 +32,6 @@ const textContainer = div({classname: 'cardText'}, text);
 
 const content = div({className: common.cardContent}, [contentHeader, textContainer]);
 
-const cardContainer = div({className: 'card'}, [photo, content]);
+const cardContainer = div({className: 'card'}, [photoContainer, content]);
 
 export default cardContainer
