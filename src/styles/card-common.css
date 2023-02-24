@@ -30,7 +30,7 @@
 .cardImage {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 316px;
     display: block;
     border-radius: 16px 16px 0 0;
 }
